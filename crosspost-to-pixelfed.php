@@ -23,6 +23,7 @@ define( 'CTF_OPTION_KEY', 'ctf_settings' );
 define( 'CTF_LOG_OPTION', 'ctf_debug_log' );
 
 require_once CTF_PLUGIN_DIR . 'includes/functions.php';
+require_once CTF_PLUGIN_DIR . 'includes/class-ctf-security.php';
 require_once CTF_PLUGIN_DIR . 'includes/class-ctf-admin-debug.php';
 require_once CTF_PLUGIN_DIR . 'includes/class-ctf-pixelfed-api.php';
 require_once CTF_PLUGIN_DIR . 'includes/class-ctf-admin-settings.php';
